@@ -1,0 +1,221 @@
+// // #palette {
+//   //   color: #221111; /* Spanish Shadow */
+//   //   color: #772222; /* Sloppy */
+//   //   color: #bb4433; /* Spanish Pink */
+//   //   color: #ffbb99; /* Peacht Keane */
+//   //   color: #dd6655; /* Coral */
+//   //   color: #9f3621; /* Dark Orange */
+//   //   color: #8e755c; /* Light Brown/Tan */
+//   //   color: #ebf1b8; /* Ooze - light green */
+//   //   color: #665511; /* DarkShi#$% */
+  
+   
+//   //   color: #000000; /* black */
+//   //   color: #aa2222; /* Aureus Aureus Aureum */
+//   //   color: #bdc6bc; /* Full Moon */
+//   //   font-family: creepster, fantasy;
+//   //   font-family: butcherman, fantasy;
+//   //   font-family: eater, fantasy;
+//   //   font-family: nosifer, fantasy;
+//   // }
+  
+//   $Aureus: #aa2222;
+  
+  * {
+    padding: 0;
+    margin: 0;
+    border: none;
+  }
+  
+  body {
+    height: 100vh;
+  }
+  
+  
+  
+  .App {
+    // background: #18110a url(./assets/images/leather_1_@2X.png) repeat center fixed;
+    height: 96vh;
+  }
+  
+  .overlay {
+    background: linear-gradient(#18110a, #34210ecd);
+    height: 100vh;
+  }
+  
+//   #home_container h1 {
+//     margin: 1vh 0 0 5vw;
+//     color: #bdc6bc;
+//     text-shadow: 2px 2px 0 black, 3px 3px 0 $Aureus;
+//     font-family: nosifer, fantasy;
+//     letter-spacing: 2vmin;
+//     font-size: calc(40px + 2vmin);
+//   }
+  
+//   #home_container img {
+//     margin: 2vh 0 0 0;
+//   }
+  
+//   // #home_header {
+//   //   margin-top: 2%;
+//   // }
+  
+//   #home_header h1 a {
+//     color: $Aureus;
+//     text-shadow: 2px 2px 0 black, 3px 3px 0 white;
+//     cursor: pointer;
+//     text-decoration: none;
+//   }
+  
+//   #moon_container {
+//     width: 100%;
+//     border: yellow 1px solid;
+//   }
+  
+//   #moon_image {
+//     border: blue 1px solid;
+//     width: 100%;
+//     height: 100%;
+//     margin: 2% 5%;
+//     opacity: 0.8;
+//     float: right;
+//     // position: absolute;
+//     // right: 5%;
+//     // top: 2%;
+//   }
+  
+//   /* NOTE: DO NOT DELETE */
+//   /* cause the moon to spin on landing page */
+//   @media (prefers-reduced-motion: no-preference) {
+//     #moon_image {
+//       animation: App-logo-spin infinite 120s linear;
+//     }
+//   }
+//   @keyframes App-logo-spin {
+//     from {
+//       transform: rotate(0deg);
+//     }
+//     to {
+//       transform: rotate(360deg);
+//     }
+//   }
+  
+//   #wolf-nav_container {
+//     margin-top: -10vh;
+//   }
+  
+//   #wolf_container {
+//     border: purple 1px solid;
+//   }
+  
+//   #wolf-image {
+//     width: 80%;
+//     height: 55vh;
+//     margin: 0 auto;
+//     border: green 1px solid;
+//     // position: absolute;
+//     // bottom: 1%;
+//     // left: 13vw;
+//   }
+  
+//   nav {
+//     border: $Aureus solid 1px;
+//     // position: absolute;
+//     // bottom: 25vh;
+//     // right: 5vw;
+  
+//     ul {
+//       margin-top: 35%;
+//     }
+  
+//     li a {
+//       color: #bdc6bc;
+//       // color: #facfba;
+//       text-shadow: 2px 2px 0 black, 3px 3px 0 $Aureus;
+//       font-family: nosifer, fantasy;
+//       letter-spacing: .5vmin;
+//       font-size: calc(8px + 2vmin);
+//     }
+//     li a:hover {
+//       color: $Aureus;
+//       text-shadow: 2px 2px 0 black, 3px 3px 0 white;
+//     }
+    
+//   }
+  
+  
+//   #copyright {
+//     // color: #bdc6bc;
+//     color: black;
+//     // text-shadow: 2px 2px 0 black, 3px 3px 0 $Aureus;
+//     text-shadow: 0 0 10px #bdc6bc;
+//     font-family: nosifer, fantasy;
+//     // position: absolute;
+//     // bottom: 0;
+//     // right: 2%;
+//     font-size: 1em;
+//     border: 1px red solid;
+//     float: right;
+//   }
+  
+  
+  
+//   @media screen and (max-width: 450px){
+  
+  
+//     #moon_container {
+//       display: none;
+//     }
+  
+//     #wolf-nav_container {
+//       margin-top: 0;
+//     }
+  
+//     #wolf_container {
+//       margin-top: 3vh;
+//     }
+  
+//     #wolf-image {
+//       width: 90%;
+//       height: 35vh;
+//     }
+  
+//     nav {
+//       ul {
+//       margin-top: 3vh;
+//       text-align: center;
+//       }
+  
+  
+//       li a {
+//         letter-spacing: 0;
+//         font-size: 2em;
+//       }
+      
+//     } 
+  
+//     footer {
+//       margin-top: 3vh;
+//     }
+//   }
+  
+//   @media screen and (max-width: 321px){
+//     nav {
+//       ul {
+//       margin-top: 2vh;
+//       text-align: center;
+//       }
+  
+  
+//       li a {
+//         letter-spacing: 0;
+//         font-size: 1.5em;
+//       }
+      
+//     } 
+  
+//     footer {
+//       margin-top: 1vh;
+//     }
+  
+//   }
