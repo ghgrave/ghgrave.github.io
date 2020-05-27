@@ -1,0 +1,10 @@
+#home_header h1 {
+  margin-top: 2%;
+}
+
+#home_header h1 a {
+  color: #aa2222;
+  text-shadow: 2px 2px 0 black, 3px 3px 0 white;
+  cursor: pointer;
+  text-decoration: none;
+}
