@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App overlay">
+    <div className="App">
       <h1>Full Moon Alpha</h1>
     </div>
   );
