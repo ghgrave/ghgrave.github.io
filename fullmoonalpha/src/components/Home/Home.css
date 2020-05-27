@@ -3,8 +3,60 @@
 }
 
 #home_header h1 a {
+    
   color: #aa2222;
   text-shadow: 2px 2px 0 black, 3px 3px 0 white;
   cursor: pointer;
   text-decoration: none;
 }
+
+/* #moon_header {
+    border: green 2px solid;
+} */
+#moon_container {
+  width: 85%;
+  /* border: yellow 1px solid; */
+  margin: auto;
+}
+#moon_image {
+  /* border: blue 1px solid; */
+  width: 100%;
+  height: 100%;
+  margin: 3% 5% 0;
+  opacity: 0.8;
+  position: realtive;
+}
+
+/* NOTE: DO NOT DELETE */
+/* cause the moon to spin on landing page */
+@media (prefers-reduced-motion: no-preference) {
+  #moon_image {
+    animation: App-logo-spin infinite 120s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#copyright {
+    color: #bdc6bc;
+    color: black;
+    text-shadow: 0 0 10px #bdc6bc;
+    font-family: nosifer, fantasy;
+    font-size: 1em;
+    /* border: 1px red solid; */
+   
+  }
+
+  @media screen and (max-width: 376px){
+    #copyright {
+       position: absolute;
+       top: 20vh;
+       
+      }
+  }
