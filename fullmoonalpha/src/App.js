@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App overlay">
-      FULL MOON ALPHA
+      <h1>Full Moon Alpha</h1>
     </div>
   );
 }

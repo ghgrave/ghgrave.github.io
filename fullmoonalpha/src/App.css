@@ -17,4 +17,13 @@ body {
   height: 100vh;
 }
 
+.App h1 {
+  margin: 1vh 0 0 5vw;
+  color: #bdc6bc;
+  text-shadow: 2px 2px 0 black, 3px 3px 0 #aa2222;
+  font-family: nosifer, fantasy;
+  letter-spacing: 2vmin;
+  font-size: calc(40px + 2vmin);
+}
+
 /*# sourceMappingURL=App.css.map */

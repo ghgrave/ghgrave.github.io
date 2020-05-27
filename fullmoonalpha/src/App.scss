@@ -19,7 +19,7 @@
 //   //   font-family: nosifer, fantasy;
 //   // }
   
-//   $Aureus: #aa2222;
+  $Aureus: #aa2222;
   
   * {
     padding: 0;
@@ -43,14 +43,14 @@
     height: 100vh;
   }
   
-//   #home_container h1 {
-//     margin: 1vh 0 0 5vw;
-//     color: #bdc6bc;
-//     text-shadow: 2px 2px 0 black, 3px 3px 0 $Aureus;
-//     font-family: nosifer, fantasy;
-//     letter-spacing: 2vmin;
-//     font-size: calc(40px + 2vmin);
-//   }
+  .App h1 {
+    margin: 1vh 0 0 5vw;
+    color: #bdc6bc;
+    text-shadow: 2px 2px 0 black, 3px 3px 0 $Aureus;
+    font-family: nosifer, fantasy;
+    letter-spacing: 2vmin;
+    font-size: calc(40px + 2vmin);
+  }
   
 //   #home_container img {
 //     margin: 2vh 0 0 0;
