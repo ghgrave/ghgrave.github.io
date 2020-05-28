@@ -1,5 +1,6 @@
 import React from "react";
 import moon from "../../assets/images/full_moon.png";
+import wolf from "../../assets/images/wolf.png";
 import { Container, Row, Col } from "reactstrap";
 import "./Home.css";
 
@@ -8,14 +9,19 @@ function Home() {
     <Container fluid={true}>
       <Row id="home_header">
         <Col>
-          <h1>
+          <h1 className="text-center">
             full moon <a href="index.html">alpha</a>
           </h1>
         </Col>
       </Row>
 
-      <Row id="moon_header">
-        <Col lg={{ size: 6, offset: 6 }} md="12" sm="12">
+      <Row id="moon_row">
+      <Col lg="6" md="12" sm="12">
+          <div id="moon_container">
+            <img src={wolf} id="wolf-image" alt="full moon" />
+          </div>
+        </Col>
+        <Col lg="6" md="12" sm="12">
           <div id="moon_container">
             <img src={moon} id="moon_image" alt="full moon" />
           </div>
